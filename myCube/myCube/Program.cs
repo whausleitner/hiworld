@@ -13,7 +13,8 @@ namespace myCube
             double a;
             Console.Write("Geben Sie die Kantenlänge ein (Längeneinheiten): ");
             double.TryParse(Console.ReadLine(), out a);
-            Console.WriteLine("Das Volumen beträgt" + System.Math.Pow(a,3) + "Volums-Einheiten!");          
+            Console.WriteLine("Das Volumen beträgt" + System.Math.Pow(a,3) + "Volums-Einheiten!");
+            Console.WriteLine("Die Kantenlänge beträgt" + 12*a);
 
         }
     }
